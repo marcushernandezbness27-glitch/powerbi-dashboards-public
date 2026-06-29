@@ -8,7 +8,7 @@ Three operational dashboards built as portfolio evidence for data analytics and 
 |---|---|---|---|
 | 1 | [Restaurant Operations](./01-restaurant-ops/) | F&B / Hospitality | Covers, COGS%, Labor%, Table Turns, Revenue per Cover |
 | 2 | [Marketing Funnel](./02-marketing-funnel/) | Revenue Ops / Marketing | Pipeline stages, Conversion rates, CAC, MRR |
-| 3 | [Stellapura Ops](./03-stellapura-ops/) | SaaS / Edge Computing | Payroll runs, Agent commissions, Holdback trends |
+| 3 | [Stellapura Payroll Analytics](./03-stellapura-ops/) | SaaS / Edge Computing | Payroll runs, Agent commissions, Holdback trends |
 
 ## How to open
 
