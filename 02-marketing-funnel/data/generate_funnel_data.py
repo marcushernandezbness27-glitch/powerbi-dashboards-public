@@ -134,7 +134,8 @@ for key in sorted(monthly):
         "win_rate": round(m["won"] / m["new_leads"], 4) if m["new_leads"] else 0,
     })
 
-base = r"c:\Users\Administrator\Documents\Marcus\Portfolio\powerbi-dashboards\02-marketing-funnel\data"
+import os
+base = os.path.dirname(os.path.abspath(__file__))
 
 with open(f"{base}\\funnel_leads.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=leads[0].keys())
